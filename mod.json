@@ -1,0 +1,16 @@
+{
+	"Name": "RestTest",
+	"Description": "Test",
+	"Version": "1.0.0",
+	"LoadPriority": 1,
+	"ConVars": [	],
+	"Scripts": [
+        {
+			"Path": "chathook.nut",
+			"RunOn": "SERVER",
+			"ServerCallback": {
+				"After": "addCallback"
+			}
+		}
+	]
+}
